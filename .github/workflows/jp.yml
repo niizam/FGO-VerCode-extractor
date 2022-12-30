@@ -5,6 +5,8 @@ on:
     branches: [JP]
   pull_request:
     branches: [JP]
+  schedule:
+    - cron: "0 16 * * *"
   workflow_dispatch:
 
 jobs:
